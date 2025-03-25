@@ -1,0 +1,112 @@
+.Contacts {
+    background-color: black;
+    color: white;
+    display: block;
+    width: 180px;
+    height: 42px;
+
+    /* padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* скругление улов */
+    border-radius: 50px;
+
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link_image {
+    /* высота */
+    width: 90px;
+    height: 90px;
+}
+
+.tt{
+    position: relative;
+    display: inline-block;
+}
+
+
+.ww{
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    font-size: 90px;
+    color: rgb(250, 247, 244);
+}
+
+.text_block {
+    background-color: rgb(255, 217, 198);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 25px;
+
+    /* ставить элементы в строку */
+    display: flex;
+    /* элементы в центре */
+    justify-content: center;
+    gap: 150px;
+
+}
+
+
+table {
+    justify-content: center;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding-left: 100px;
+    background-color: rgb(211, 208, 208);
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.portfilo {
+    /* ставить элементы в строку */
+    display: inline-block;
+    /* элементы в центре */
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.mem {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+    margin-left: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    font-size: 25px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.oi{
+    text-align: center;
+    font-size: 25px;
+}
